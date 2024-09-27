@@ -15,3 +15,4 @@ mongoose
     .connect('mongodb://localhost:27017')
     .then(()=>app.listen(8000))
     .catch(()=>console.log('err'))
+    
